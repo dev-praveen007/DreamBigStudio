@@ -22,8 +22,8 @@ const Header = () => {
     //     <ul>PortFolio</ul>
     //   </li>
     // </div>
-    <Navbar expand="lg" className="cus-navbar">
-    <Container>
+    <Navbar expand="xl" className="cus-navbar">
+    <Container fluid>
       <Link to="/" >
         <img alt='Header' src={LogoImgg} className='header-icon' />
       </Link>
